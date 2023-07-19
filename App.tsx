@@ -1,8 +1,8 @@
 import React from 'react';
-import TodoListScreen from './src/views/TodoListScreen';
+import Routes from './src/routes';
 
 function App(): JSX.Element {
-  return <TodoListScreen />;
+  return <Routes />;
 }
 
 export default App;
